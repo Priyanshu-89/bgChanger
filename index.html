@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E4BBDA;
+        }
+
+        h1{
+            width: 50%;
+            text-align: center;
+            font-family:  Helvetica, sans-serif;
+        }
+        button{
+            margin-top: 30px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 3px;
+            border: none;
+            background: #000;
+            color: #fff;
+            padding: 8px 30px;
+        }
+
+        #stop{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>When You click start button background color
+         change every time until you click stop button</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script src="./index.js"></script>
+</body>
+</html>
